@@ -27,9 +27,24 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'gmaps4rails'
+gem 'capybara', '2.1.0'
 
+
+group :production do
+    gem 'pg', '0.15.1'   
+    gem 'rails_12factor', '0.0.2' 
+end
 
 gem 'rspec-rails', '2.13.1'
+
+gem 'minitest'
+
+gem 'guard-rspec', '2.5.0'
+
+gem "therubyracer"
+
+gem 'angularjs-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
