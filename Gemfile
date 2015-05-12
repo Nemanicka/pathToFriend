@@ -41,9 +41,13 @@ gem 'minitest'
 
 gem 'guard-rspec', '2.5.0'
 
-gem "therubyracer"
+gem 'therubyracer'
 
 gem 'angularjs-rails'
+
+gem 'curb'
+
+gem 'addressable'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
