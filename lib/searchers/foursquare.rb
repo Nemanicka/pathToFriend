@@ -5,13 +5,18 @@
 require "net/http"
 require "curb"
 require "addressable/uri"
-
+require "json"
 
 class FoursquareSearcher
 
     def initialize( attributes = {} )
+        location = [ 50.45025, 30.523889 ]
+    
         curb = Curl::Easy.new
-        curb.url = "https://api.foursquare.com/v2/venues/"
+        curb.url = constructUrl( location );
+        puts curb.url
+        curb.http_get()
+        parsed_answer = JSON.parse( curb.body_str );
     end
 
     def constructUrl ( location )
@@ -22,7 +27,7 @@ class FoursquareSearcher
                                 :client_secret => "3WL0SL5JODGZDJD1PNVRJPQ4JQAVN2SW42AUBQJIMMXZ3VE2",
                                 :v => "20120609"
                               }
-        puts baseUrl + params.query
+        return baseUrl + params.query
     end
 
 
@@ -30,7 +35,6 @@ end
 
 
  test = FoursquareSearcher.new
- test.constructUrl( [ 40.7, -74 ] )
  
 
 
