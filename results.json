@@ -1,0 +1,1784 @@
+{
+:statuses=>[{
+:metadata=>{
+:iso_language_code=>"bg", 
+:result_type=>"recent"}, 
+:created_at=>"Mon May 18 16
+:29
+:56 +0000 2015", 
+:id=>600337533717774336, 
+:id_str=>"600337533717774336", 
+:text=>"RT @an_namaste
+: My cutie boy &lt;3\n\n#meow #kiev #couple #kiss @ Сушия https
+://t.co/MiCdlHUyIr", 
+:source=>"<a href=\"http
+://www.somesite.com\" rel=\"nofollow\">OctopixyApp1</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>3044883976, 
+:id_str=>"3044883976", 
+:name=>"Cat Bot", 
+:screen_name=>"octopixy", 
+:location=>"", 
+:description=>"The cutest cat in the World
+:", 
+:url=>"http
+://t.co/uZJKgQMI5Q", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"http
+://t.co/uZJKgQMI5Q", 
+:expanded_url=>"http
+://linkshrink.net/7sPfWC", 
+:display_url=>"linkshrink.net/7sPfWC", 
+:indices=>[0, 22]}]}, 
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>1164, 
+:friends_count=>1773, 
+:listed_count=>87, 
+:created_at=>"Thu Feb 19 12
+:39
+:54 +0000 2015", 
+:favourites_count=>3475, 
+:utc_offset=>-18000, 
+:time_zone=>"Central Time (US & Canada)", 
+:geo_enabled=>false, 
+:verified=>false, 
+:statuses_count=>13815, 
+:lang=>"en", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"000000", 
+:profile_background_image_url=>"http
+://abs.twimg.com/images/themes/theme1/bg.png", 
+:profile_background_image_url_https=>"https
+://abs.twimg.com/images/themes/theme1/bg.png", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/568482035241463808/HJlJ4w25_normal.png", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/568482035241463808/HJlJ4w25_normal.png", 
+:profile_link_color=>"3B94D9", 
+:profile_sidebar_border_color=>"000000", 
+:profile_sidebar_fill_color=>"000000", 
+:profile_text_color=>"000000", 
+:profile_use_background_image=>false, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>nil, 
+:coordinates=>nil, 
+:place=>nil, 
+:contributors=>nil, 
+:retweeted_status=>{
+:metadata=>{
+:iso_language_code=>"bg", 
+:result_type=>"recent"}, 
+:created_at=>"Mon May 18 16
+:29
+:56 +0000 2015", 
+:id=>600337532379860992, 
+:id_str=>"600337532379860992", 
+:text=>"My cutie boy &lt;3\n\n#meow #kiev #couple #kiss @ Сушия https
+://t.co/MiCdlHUyIr", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>364421913, 
+:id_str=>"364421913", 
+:name=>"Anastasia ", 
+:screen_name=>"an_namaste", 
+:location=>"Kiev Ukraine", 
+:description=>"...He says that planet Earth isn't his home.\r\nNo he comes from Outer Space...(с)", 
+:url=>nil, 
+:entities=>{
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>43, 
+:friends_count=>35, 
+:listed_count=>3, 
+:created_at=>"Mon Aug 29 18
+:58
+:01 +0000 2011", 
+:favourites_count=>56, 
+:utc_offset=>10800, 
+:time_zone=>"Kyiv", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>941, 
+:lang=>"ru", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"0099B9", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/521333471419977728/mfFJYbeA.jpeg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/521333471419977728/mfFJYbeA.jpeg", 
+:profile_background_tile=>true, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/459126190549106688/WWCq6Co7_normal.jpeg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/459126190549106688/WWCq6Co7_normal.jpeg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/364421913/1398299145", 
+:profile_link_color=>"0099B9", 
+:profile_sidebar_border_color=>"FFFFFF", 
+:profile_sidebar_fill_color=>"7AC3EE", 
+:profile_text_color=>"3D1957", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.40016541, 30.51264573]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.51264573, 50.40016541]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>1, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[{
+:text=>"meow", 
+:indices=>[20, 25]}, {
+:text=>"kiev", 
+:indices=>[26, 31]}, {
+:text=>"couple", 
+:indices=>[32, 39]}, {
+:text=>"kiss", 
+:indices=>[40, 45]}], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/MiCdlHUyIr", 
+:expanded_url=>"https
+://instagram.com/p/21HxEIzb5p/", 
+:display_url=>"instagram.com/p/21HxEIzb5p/", 
+:indices=>[54, 77]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"bg"}, 
+:retweet_count=>1, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[{
+:text=>"meow", 
+:indices=>[36, 41]}, {
+:text=>"kiev", 
+:indices=>[42, 47]}, {
+:text=>"couple", 
+:indices=>[48, 55]}, {
+:text=>"kiss", 
+:indices=>[56, 61]}], 
+:symbols=>[], 
+:user_mentions=>[{
+:screen_name=>"an_namaste", 
+:name=>"Anastasia ", 
+:id=>364421913, 
+:id_str=>"364421913", 
+:indices=>[3, 14]}], 
+:urls=>[{
+:url=>"https
+://t.co/MiCdlHUyIr", 
+:expanded_url=>"https
+://instagram.com/p/21HxEIzb5p/", 
+:display_url=>"instagram.com/p/21HxEIzb5p/", 
+:indices=>[70, 93]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"bg"}, {
+:metadata=>{
+:iso_language_code=>"bg", 
+:result_type=>"recent"}, 
+:created_at=>"Mon May 18 16
+:29
+:56 +0000 2015", 
+:id=>600337532379860992, 
+:id_str=>"600337532379860992", 
+:text=>"My cutie boy &lt;3\n\n#meow #kiev #couple #kiss @ Сушия https
+://t.co/MiCdlHUyIr", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>364421913, 
+:id_str=>"364421913", 
+:name=>"Anastasia ", 
+:screen_name=>"an_namaste", 
+:location=>"Kiev Ukraine", 
+:description=>"...He says that planet Earth isn't his home.\r\nNo he comes from Outer Space...(с)", 
+:url=>nil, 
+:entities=>{
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>43, 
+:friends_count=>35, 
+:listed_count=>3, 
+:created_at=>"Mon Aug 29 18
+:58
+:01 +0000 2011", 
+:favourites_count=>56, 
+:utc_offset=>10800, 
+:time_zone=>"Kyiv", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>941, 
+:lang=>"ru", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"0099B9", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/521333471419977728/mfFJYbeA.jpeg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/521333471419977728/mfFJYbeA.jpeg", 
+:profile_background_tile=>true, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/459126190549106688/WWCq6Co7_normal.jpeg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/459126190549106688/WWCq6Co7_normal.jpeg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/364421913/1398299145", 
+:profile_link_color=>"0099B9", 
+:profile_sidebar_border_color=>"FFFFFF", 
+:profile_sidebar_fill_color=>"7AC3EE", 
+:profile_text_color=>"3D1957", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.40016541, 30.51264573]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.51264573, 50.40016541]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>1, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[{
+:text=>"meow", 
+:indices=>[20, 25]}, {
+:text=>"kiev", 
+:indices=>[26, 31]}, {
+:text=>"couple", 
+:indices=>[32, 39]}, {
+:text=>"kiss", 
+:indices=>[40, 45]}], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/MiCdlHUyIr", 
+:expanded_url=>"https
+://instagram.com/p/21HxEIzb5p/", 
+:display_url=>"instagram.com/p/21HxEIzb5p/", 
+:indices=>[54, 77]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"bg"}, {
+:metadata=>{
+:iso_language_code=>"en", 
+:result_type=>"recent"}, 
+:created_at=>"Sun May 17 21
+:15
+:53 +0000 2015", 
+:id=>600047105999273985, 
+:id_str=>"600047105999273985", 
+:text=>"RT @JoysanJoys
+: Beautiful evening 🙈🙉🙊RG @aelyn_
+: So happy to meet my lovely girls @yana_kiev @joysanjoys ☺️☺️☺️… https
+://t.co/o9624Q33YI", 
+:source=>"<a href=\"http
+://www.tweetcaster.com\" rel=\"nofollow\">TweetCaster for Android</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>73251056, 
+:id_str=>"73251056", 
+:name=>"Taras Hamkalo", 
+:screen_name=>"INFERNOANGEL_UA", 
+:location=>"Lviv, Ukraine", 
+:description=>"Born 11.03.1987. Live in ancient ukrainian city - Lviv. Work as system administrator. Love music and all things that are beutiful", 
+:url=>nil, 
+:entities=>{
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>69, 
+:friends_count=>58, 
+:listed_count=>5, 
+:created_at=>"Thu Sep 10 23
+:28
+:11 +0000 2009", 
+:favourites_count=>55, 
+:utc_offset=>10800, 
+:time_zone=>"Cairo", 
+:geo_enabled=>false, 
+:verified=>false, 
+:statuses_count=>12143, 
+:lang=>"ru", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"FFF04D", 
+:profile_background_image_url=>"http
+://abs.twimg.com/images/themes/theme19/bg.gif", 
+:profile_background_image_url_https=>"https
+://abs.twimg.com/images/themes/theme19/bg.gif", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/424987318714245121/b5SWF1QH_normal.png", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/424987318714245121/b5SWF1QH_normal.png", 
+:profile_link_color=>"0099CC", 
+:profile_sidebar_border_color=>"FFF8AD", 
+:profile_sidebar_fill_color=>"F6FFD1", 
+:profile_text_color=>"333333", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>nil, 
+:coordinates=>nil, 
+:place=>nil, 
+:contributors=>nil, 
+:retweeted_status=>{
+:metadata=>{
+:iso_language_code=>"en", 
+:result_type=>"recent"}, 
+:created_at=>"Sun May 17 19
+:31
+:15 +0000 2015", 
+:id=>600020774565629953, 
+:id_str=>"600020774565629953", 
+:text=>"Beautiful evening 🙈🙉🙊RG @aelyn_
+: So happy to meet my lovely girls @yana_kiev @joysanjoys ☺️☺️☺️… https
+://t.co/o9624Q33YI", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>225444742, 
+:id_str=>"225444742", 
+:name=>"Oksana", 
+:screen_name=>"JoysanJoys", 
+:location=>"Ukraine", 
+:description=>"@ArminvanBuuren #Trance #Trancefamily Admin of @ASOT700inKIEV Manager of #UATFparties #Kiev #Ukraine", 
+:url=>"https
+://t.co/U5fze9oiJd", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"https
+://t.co/U5fze9oiJd", 
+:expanded_url=>"https
+://vk.com/joysanjoys", 
+:display_url=>"vk.com/joysanjoys", 
+:indices=>[0, 23]}]}, 
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>650, 
+:friends_count=>475, 
+:listed_count=>13, 
+:created_at=>"Sat Dec 11 15
+:34
+:27 +0000 2010", 
+:favourites_count=>4004, 
+:utc_offset=>-7200, 
+:time_zone=>"Greenland", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>9474, 
+:lang=>"ru", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"1A55EB", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/826343270/13ccf4014944d371564e94808b0b7e0c.jpeg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/826343270/13ccf4014944d371564e94808b0b7e0c.jpeg", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/594065155304071168/LC9Jr8b-_normal.jpg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/594065155304071168/LC9Jr8b-_normal.jpg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/225444742/1413893435", 
+:profile_link_color=>"F248C5", 
+:profile_sidebar_border_color=>"FFFFFF", 
+:profile_sidebar_fill_color=>"E5507E", 
+:profile_text_color=>"362720", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.4428008, 30.52087203]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.52087203, 50.4428008]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>1, 
+:favorite_count=>2, 
+:entities=>{
+:hashtags=>[], 
+:symbols=>[], 
+:user_mentions=>[{
+:screen_name=>"AELYN_", 
+:name=>"AELYN Vocalist", 
+:id=>146999688, 
+:id_str=>"146999688", 
+:indices=>[24, 31]}, {
+:screen_name=>"Yana_Kiev", 
+:name=>"Yana_Kiev", 
+:id=>309192596, 
+:id_str=>"309192596", 
+:indices=>[66, 76]}, {
+:screen_name=>"JoysanJoys", 
+:name=>"Oksana", 
+:id=>225444742, 
+:id_str=>"225444742", 
+:indices=>[77, 88]}], 
+:urls=>[{
+:url=>"https
+://t.co/o9624Q33YI", 
+:expanded_url=>"https
+://instagram.com/p/2y3uMWv8OH/", 
+:display_url=>"instagram.com/p/2y3uMWv8OH/", 
+:indices=>[97, 120]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"en"}, 
+:retweet_count=>1, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[], 
+:symbols=>[], 
+:user_mentions=>[{
+:screen_name=>"JoysanJoys", 
+:name=>"Oksana", 
+:id=>225444742, 
+:id_str=>"225444742", 
+:indices=>[3, 14]}, {
+:screen_name=>"AELYN_", 
+:name=>"AELYN Vocalist", 
+:id=>146999688, 
+:id_str=>"146999688", 
+:indices=>[40, 47]}, {
+:screen_name=>"Yana_Kiev", 
+:name=>"Yana_Kiev", 
+:id=>309192596, 
+:id_str=>"309192596", 
+:indices=>[82, 92]}, {
+:screen_name=>"JoysanJoys", 
+:name=>"Oksana", 
+:id=>225444742, 
+:id_str=>"225444742", 
+:indices=>[93, 104]}], 
+:urls=>[{
+:url=>"https
+://t.co/o9624Q33YI", 
+:expanded_url=>"https
+://instagram.com/p/2y3uMWv8OH/", 
+:display_url=>"instagram.com/p/2y3uMWv8OH/", 
+:indices=>[113, 136]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"en"}, {
+:metadata=>{
+:iso_language_code=>"en", 
+:result_type=>"recent"}, 
+:created_at=>"Sun May 17 19
+:31
+:15 +0000 2015", 
+:id=>600020774565629953, 
+:id_str=>"600020774565629953", 
+:text=>"Beautiful evening 🙈🙉🙊RG @aelyn_
+: So happy to meet my lovely girls @yana_kiev @joysanjoys ☺️☺️☺️… https
+://t.co/o9624Q33YI", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>225444742, 
+:id_str=>"225444742", 
+:name=>"Oksana", 
+:screen_name=>"JoysanJoys", 
+:location=>"Ukraine", 
+:description=>"@ArminvanBuuren #Trance #Trancefamily Admin of @ASOT700inKIEV Manager of #UATFparties #Kiev #Ukraine", 
+:url=>"https
+://t.co/U5fze9oiJd", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"https
+://t.co/U5fze9oiJd", 
+:expanded_url=>"https
+://vk.com/joysanjoys", 
+:display_url=>"vk.com/joysanjoys", 
+:indices=>[0, 23]}]}, 
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>650, 
+:friends_count=>475, 
+:listed_count=>13, 
+:created_at=>"Sat Dec 11 15
+:34
+:27 +0000 2010", 
+:favourites_count=>4004, 
+:utc_offset=>-7200, 
+:time_zone=>"Greenland", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>9474, 
+:lang=>"ru", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"1A55EB", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/826343270/13ccf4014944d371564e94808b0b7e0c.jpeg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/826343270/13ccf4014944d371564e94808b0b7e0c.jpeg", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/594065155304071168/LC9Jr8b-_normal.jpg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/594065155304071168/LC9Jr8b-_normal.jpg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/225444742/1413893435", 
+:profile_link_color=>"F248C5", 
+:profile_sidebar_border_color=>"FFFFFF", 
+:profile_sidebar_fill_color=>"E5507E", 
+:profile_text_color=>"362720", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.4428008, 30.52087203]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.52087203, 50.4428008]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>1, 
+:favorite_count=>2, 
+:entities=>{
+:hashtags=>[], 
+:symbols=>[], 
+:user_mentions=>[{
+:screen_name=>"AELYN_", 
+:name=>"AELYN Vocalist", 
+:id=>146999688, 
+:id_str=>"146999688", 
+:indices=>[24, 31]}, {
+:screen_name=>"Yana_Kiev", 
+:name=>"Yana_Kiev", 
+:id=>309192596, 
+:id_str=>"309192596", 
+:indices=>[66, 76]}, {
+:screen_name=>"JoysanJoys", 
+:name=>"Oksana", 
+:id=>225444742, 
+:id_str=>"225444742", 
+:indices=>[77, 88]}], 
+:urls=>[{
+:url=>"https
+://t.co/o9624Q33YI", 
+:expanded_url=>"https
+://instagram.com/p/2y3uMWv8OH/", 
+:display_url=>"instagram.com/p/2y3uMWv8OH/", 
+:indices=>[97, 120]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"en"}, {
+:metadata=>{
+:iso_language_code=>"en", 
+:result_type=>"recent"}, 
+:created_at=>"Sun May 17 08
+:56
+:35 +0000 2015", 
+:id=>599861055855185920, 
+:id_str=>"599861055855185920", 
+:text=>"My view of the Olympiyskiy, the stadium of Dynamo Kiev and the Ukrainian national team. I'll be in… https
+://t.co/9L2w2rTMoK", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>6266792, 
+:id_str=>"6266792", 
+:name=>"Jonathan Fisher", 
+:screen_name=>"fishplums", 
+:location=>"London", 
+:description=>"Producing football videos at @guardian_sport. Bristol Rovers 'til I die.", 
+:url=>"http
+://t.co/p0c2Xzdsoj", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"http
+://t.co/p0c2Xzdsoj", 
+:expanded_url=>"http
+://www.theguardian.com/profile/jonathan-fisher", 
+:display_url=>"theguardian.com/profile/jonath…", 
+:indices=>[0, 22]}]}, 
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>1250, 
+:friends_count=>1229, 
+:listed_count=>31, 
+:created_at=>"Wed May 23 17
+:38
+:55 +0000 2007", 
+:favourites_count=>5753, 
+:utc_offset=>3600, 
+:time_zone=>"London", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>29505, 
+:lang=>"en", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"141313", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/74652364/2282105413_6ee8372d44.jpg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/74652364/2282105413_6ee8372d44.jpg", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/590962541918035968/ls0EwwRM_normal.jpg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/590962541918035968/ls0EwwRM_normal.jpg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/6266792/1430461845", 
+:profile_link_color=>"1B5C23", 
+:profile_sidebar_border_color=>"000000", 
+:profile_sidebar_fill_color=>"A10D05", 
+:profile_text_color=>"000000", 
+:profile_use_background_image=>false, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.43721995, 30.52478912]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.52478912, 50.43721995]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>0, 
+:favorite_count=>1, 
+:entities=>{
+:hashtags=>[], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/9L2w2rTMoK", 
+:expanded_url=>"https
+://instagram.com/p/2xvFyTMHnb/", 
+:display_url=>"instagram.com/p/2xvFyTMHnb/", 
+:indices=>[100, 123]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"en"}, {
+:metadata=>{
+:result_type=>"recent", 
+:iso_language_code=>"ru"}, 
+:created_at=>"Sat May 16 17
+:33
+:32 +0000 2015", 
+:id=>599628762171449345, 
+:id_str=>"599628762171449345", 
+:text=>"Meet the best friend, my bro. #Kiev #Ukraine #friend @ Ул. Городецкого https
+://t.co/L36OC3fLuY", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>369200445, 
+:id_str=>"369200445", 
+:name=>"The_Icelandist", 
+:screen_name=>"The_Icelandist", 
+:location=>"Reykjavik", 
+:description=>"The Icelandist - гид в Исландии", 
+:url=>"http
+://t.co/v1mIED8mCc", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"http
+://t.co/v1mIED8mCc", 
+:expanded_url=>"http
+://theicelandist.com/", 
+:display_url=>"theicelandist.com", 
+:indices=>[0, 22]}]}, 
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>211, 
+:friends_count=>98, 
+:listed_count=>3, 
+:created_at=>"Tue Sep 06 23
+:19
+:36 +0000 2011", 
+:favourites_count=>1, 
+:utc_offset=>3600, 
+:time_zone=>"Casablanca", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>1137, 
+:lang=>"ru", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"C0DEED", 
+:profile_background_image_url=>"http
+://abs.twimg.com/images/themes/theme1/bg.png", 
+:profile_background_image_url_https=>"https
+://abs.twimg.com/images/themes/theme1/bg.png", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/1561444610/72269_453545373359_773338359_5245868_1469398_n_normal.jpg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/1561444610/72269_453545373359_773338359_5245868_1469398_n_normal.jpg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/369200445/1388915573", 
+:profile_link_color=>"0084B4", 
+:profile_sidebar_border_color=>"C0DEED", 
+:profile_sidebar_fill_color=>"DDEEF6", 
+:profile_text_color=>"333333", 
+:profile_use_background_image=>true, 
+:default_profile=>true, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.44811838, 30.52561317]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.52561317, 50.44811838]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>0, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[{
+:text=>"Kiev", 
+:indices=>[30, 35]}, {
+:text=>"Ukraine", 
+:indices=>[36, 44]}, {
+:text=>"friend", 
+:indices=>[45, 52]}], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/L36OC3fLuY", 
+:expanded_url=>"https
+://instagram.com/p/2wFdIOoVX4/", 
+:display_url=>"instagram.com/p/2wFdIOoVX4/", 
+:indices=>[71, 94]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>true, 
+:lang=>"ru"}, {
+:metadata=>{
+:iso_language_code=>"en", 
+:result_type=>"recent"}, 
+:created_at=>"Sat May 16 16
+:28
+:09 +0000 2015", 
+:id=>599612308013330432, 
+:id_str=>"599612308013330432", 
+:text=>"Crazy morning with my lovely friends #boraborakiev #borabora #kiev @ Bora Bora Beach Club https
+://t.co/Aygtmu9hdG", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>268259233, 
+:id_str=>"268259233", 
+:name=>"Vladyslava", 
+:screen_name=>"Vladyslava_Z", 
+:location=>"Kiev, Ukraine", 
+:description=>"#Hellraisers сhief manager @hrcsgo @hrdota2 @hrwot / Site
+: http
+://t.co/6WZoQBluT5 / Esports Host at #SLTV", 
+:url=>"https
+://t.co/zs7jY9dxnq", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"https
+://t.co/zs7jY9dxnq", 
+:expanded_url=>"https
+://www.facebook.com/Vladyslava.Zakhliebina", 
+:display_url=>"facebook.com/Vladyslava.Zak…", 
+:indices=>[0, 23]}]}, 
+:description=>{
+:urls=>[{
+:url=>"http
+://t.co/6WZoQBluT5", 
+:expanded_url=>"http
+://hellraisers.pro/", 
+:display_url=>"hellraisers.pro", 
+:indices=>[59, 81]}]}}, 
+:protected=>false, 
+:followers_count=>6180, 
+:friends_count=>391, 
+:listed_count=>43, 
+:created_at=>"Fri Mar 18 12
+:27
+:44 +0000 2011", 
+:favourites_count=>1166, 
+:utc_offset=>10800, 
+:time_zone=>"Kyiv", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>2444, 
+:lang=>"ru", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"131516", 
+:profile_background_image_url=>"http
+://abs.twimg.com/images/themes/theme14/bg.gif", 
+:profile_background_image_url_https=>"https
+://abs.twimg.com/images/themes/theme14/bg.gif", 
+:profile_background_tile=>true, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/587627886959587329/mqYyvlfJ_normal.jpg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/587627886959587329/mqYyvlfJ_normal.jpg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/268259233/1424425861", 
+:profile_link_color=>"3B94D9", 
+:profile_sidebar_border_color=>"FFFFFF", 
+:profile_sidebar_fill_color=>"EFEFEF", 
+:profile_text_color=>"333333", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.45206244, 30.57204851]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.57204851, 50.45206244]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>0, 
+:favorite_count=>1, 
+:entities=>{
+:hashtags=>[{
+:text=>"boraborakiev", 
+:indices=>[37, 50]}, {
+:text=>"borabora", 
+:indices=>[51, 60]}, {
+:text=>"kiev", 
+:indices=>[61, 66]}], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/Aygtmu9hdG", 
+:expanded_url=>"https
+://instagram.com/p/2vjMbCJVqZ/", 
+:display_url=>"instagram.com/p/2vjMbCJVqZ/", 
+:indices=>[90, 113]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"en"}, {
+:metadata=>{
+:result_type=>"recent", 
+:iso_language_code=>"uk"}, 
+:created_at=>"Sat May 16 14
+:35
+:14 +0000 2015", 
+:id=>599583891058462720, 
+:id_str=>"599583891058462720", 
+:text=>"My sunny mood) #happy #weekends# #behappy #ярко #kiev #girl #ukraine @ Національний Експоцентр України https
+://t.co/ujZ5IOpw84", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>280125504, 
+:id_str=>"280125504", 
+:name=>"Darina Skiba", 
+:screen_name=>"Meangirla", 
+:location=>"Ukraine", 
+:description=>"", 
+:url=>nil, 
+:entities=>{
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>89, 
+:friends_count=>133, 
+:listed_count=>2, 
+:created_at=>"Sun Apr 10 17
+:53
+:31 +0000 2011", 
+:favourites_count=>3, 
+:utc_offset=>-18000, 
+:time_zone=>"Quito", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>4164, 
+:lang=>"en", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"FF6699", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/231312218/Patchwork_twitter_background_by_designonstop.jpg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/231312218/Patchwork_twitter_background_by_designonstop.jpg", 
+:profile_background_tile=>true, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/1479798836/image_normal.jpg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/1479798836/image_normal.jpg", 
+:profile_link_color=>"B40B43", 
+:profile_sidebar_border_color=>"CC3366", 
+:profile_sidebar_fill_color=>"E5507E", 
+:profile_text_color=>"362720", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.37968547, 30.48072582]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.48072582, 50.37968547]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>0, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[{
+:text=>"happy", 
+:indices=>[15, 21]}, {
+:text=>"behappy", 
+:indices=>[33, 41]}, {
+:text=>"ярко", 
+:indices=>[42, 47]}, {
+:text=>"kiev", 
+:indices=>[48, 53]}, {
+:text=>"girl", 
+:indices=>[54, 59]}, {
+:text=>"ukraine", 
+:indices=>[60, 68]}], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/ujZ5IOpw84", 
+:expanded_url=>"https
+://instagram.com/p/2vxDFMAWla/", 
+:display_url=>"instagram.com/p/2vxDFMAWla/", 
+:indices=>[103, 126]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"uk"}, {
+:metadata=>{
+:result_type=>"recent", 
+:iso_language_code=>"sk"}, 
+:created_at=>"Thu May 14 10
+:47
+:48 +0000 2015", 
+:id=>598801882933534720, 
+:id_str=>"598801882933534720", 
+:text=>"Watch my video from Pechers'kyi uzviz, 3–17, Kiev, Kiev, Ukraine http
+://t.co/uQCYsrKKv1", 
+:source=>"<a href=\"http
+://www.apple.com\" rel=\"nofollow\">iOS</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>181653942, 
+:id_str=>"181653942", 
+:name=>"Petro", 
+:screen_name=>"petro_dae", 
+:location=>"Donetsk", 
+:description=>"", 
+:url=>"http
+://t.co/uGp2zYCDbl", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"http
+://t.co/uGp2zYCDbl", 
+:expanded_url=>"http
+://petroakzhygitov.com", 
+:display_url=>"petroakzhygitov.com", 
+:indices=>[0, 22]}]}, 
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>27, 
+:friends_count=>116, 
+:listed_count=>0, 
+:created_at=>"Sun Aug 22 19
+:00
+:26 +0000 2010", 
+:favourites_count=>0, 
+:utc_offset=>10800, 
+:time_zone=>"Kyiv", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>135, 
+:lang=>"en", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"FFFFFF", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/139016743/fiats_500.jpg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/139016743/fiats_500.jpg", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/1108649019/106f588811efeef00dae02666ea13168_normal.png", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/1108649019/106f588811efeef00dae02666ea13168_normal.png", 
+:profile_link_color=>"DB9200", 
+:profile_sidebar_border_color=>"000000", 
+:profile_sidebar_fill_color=>"B0230A", 
+:profile_text_color=>"0A090A", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.436368, 30.537842]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.537842, 50.436368]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>0, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"http
+://t.co/uQCYsrKKv1", 
+:expanded_url=>"http
+://live4.io/stream/petro_dae/95BCC757-7E23-445B-B7AB-6737208069FA", 
+:display_url=>"live4.io/stream/petro_d…", 
+:indices=>[65, 87]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"sk"}, {
+:metadata=>{
+:iso_language_code=>"et", 
+:result_type=>"recent"}, 
+:created_at=>"Wed May 13 12
+:51
+:31 +0000 2015", 
+:id=>598470630418309120, 
+:id_str=>"598470630418309120", 
+:text=>"My cutipie🍧 @ Kiev Cinema https
+://t.co/nUxnk9uYbj", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>1169945904, 
+:id_str=>"1169945904", 
+:name=>"Lakki", 
+:screen_name=>"Lakki_x_x", 
+:location=>"Kiev", 
+:description=>"ИЭЭ ФЭВЛ, который запутался в жизни и не понимает происходящее, что не мешает верить в счастливое будущее", 
+:url=>"http
+://t.co/S4jyPdnxUo", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"http
+://t.co/S4jyPdnxUo", 
+:expanded_url=>"http
+://ficbook.net/authors/46631", 
+:display_url=>"ficbook.net/authors/46631", 
+:indices=>[0, 22]}]}, 
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>278, 
+:friends_count=>104, 
+:listed_count=>5, 
+:created_at=>"Mon Feb 11 20
+:30
+:11 +0000 2013", 
+:favourites_count=>1817, 
+:utc_offset=>10800, 
+:time_zone=>"Kyiv", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>27257, 
+:lang=>"ru", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>true, 
+:profile_background_color=>"FFCCFF", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/561296662354608130/1JrlmXXM.jpeg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/561296662354608130/1JrlmXXM.jpeg", 
+:profile_background_tile=>true, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/575606256842510337/b7ViDti7_normal.jpeg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/575606256842510337/b7ViDti7_normal.jpeg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/1169945904/1422658347", 
+:profile_link_color=>"CC99FF", 
+:profile_sidebar_border_color=>"FFFFFF", 
+:profile_sidebar_fill_color=>"DDEEF6", 
+:profile_text_color=>"CC0033", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.43935028, 30.51781311]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.51781311, 50.43935028]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>0, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/nUxnk9uYbj", 
+:expanded_url=>"https
+://instagram.com/p/2n2zE6TBAZ/", 
+:display_url=>"instagram.com/p/2n2zE6TBAZ/", 
+:indices=>[26, 49]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"et"}, {
+:metadata=>{
+:iso_language_code=>"en", 
+:result_type=>"recent"}, 
+:created_at=>"Tue May 12 18
+:20
+:34 +0000 2015", 
+:id=>598191046854647808, 
+:id_str=>"598191046854647808", 
+:text=>"due date for daughter's day - happy birthday, my baby Eva &lt;3 @ Dnipro River, Kiev https
+://t.co/Ohg0I6yMCH", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>89797583, 
+:id_str=>"89797583", 
+:name=>"Cate Underwood", 
+:screen_name=>"cateunderwood", 
+:location=>"", 
+:description=>"Nineties’ redux aesthetics. Model/talent represented by IMG London/Paris/Milan and The Lions NY. Photographer at
+:", 
+:url=>"http
+://t.co/eT4AjXecCm", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"http
+://t.co/eT4AjXecCm", 
+:expanded_url=>"http
+://cateunderwood.com/", 
+:display_url=>"cateunderwood.com", 
+:indices=>[0, 22]}]}, 
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>1123, 
+:friends_count=>94, 
+:listed_count=>27, 
+:created_at=>"Fri Nov 13 21
+:29
+:21 +0000 2009", 
+:favourites_count=>158, 
+:utc_offset=>-7200, 
+:time_zone=>"Greenland", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>3237, 
+:lang=>"en", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"131516", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/732589354/f37f46f447ae70f44a6b5de76127b401.jpeg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/732589354/f37f46f447ae70f44a6b5de76127b401.jpeg", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/595613399549157376/YkXzw9A-_normal.jpg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/595613399549157376/YkXzw9A-_normal.jpg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/89797583/1354771430", 
+:profile_link_color=>"E8A137", 
+:profile_sidebar_border_color=>"000000", 
+:profile_sidebar_fill_color=>"EFEFEF", 
+:profile_text_color=>"333333", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.43109475, 30.59377312]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.59377312, 50.43109475]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>0, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/Ohg0I6yMCH", 
+:expanded_url=>"https
+://instagram.com/p/2l3qH1sTl-/", 
+:display_url=>"instagram.com/p/2l3qH1sTl-/", 
+:indices=>[85, 108]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"en"}, {
+:metadata=>{
+:result_type=>"recent", 
+:iso_language_code=>"ru"}, 
+:created_at=>"Mon May 11 20
+:43
+:29 +0000 2015", 
+:id=>597864626412457985, 
+:id_str=>"597864626412457985", 
+:text=>"My first photo from Kiev 🍭😂 Ребятки!Кто сейчас тут?Буду рада встретиться со всеми!☕ @ Ukraine;… https
+://t.co/3Cqvsdb1VJ", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>383977588, 
+:id_str=>"383977588", 
+:name=>"Валерия Венгерская", 
+:screen_name=>"VengerskayaLera", 
+:location=>"", 
+:description=>"http
+://t.co/bD0HFqVT", 
+:url=>nil, 
+:entities=>{
+:description=>{
+:urls=>[{
+:url=>"http
+://t.co/bD0HFqVT", 
+:expanded_url=>"http
+://vk.com/valery_vengerskaya", 
+:display_url=>"vk.com/valery_vengers…", 
+:indices=>[0, 20]}]}}, 
+:protected=>false, 
+:followers_count=>99, 
+:friends_count=>52, 
+:listed_count=>1, 
+:created_at=>"Sun Oct 02 21
+:07
+:38 +0000 2011", 
+:favourites_count=>5, 
+:utc_offset=>-7200, 
+:time_zone=>"Greenland", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>3777, 
+:lang=>"ru", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"9AE4E8", 
+:profile_background_image_url=>"http
+://abs.twimg.com/images/themes/theme16/bg.gif", 
+:profile_background_image_url_https=>"https
+://abs.twimg.com/images/themes/theme16/bg.gif", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/3112203971/0b6d404875b3ef8a40cf468ffb654566_normal.jpeg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/3112203971/0b6d404875b3ef8a40cf468ffb654566_normal.jpeg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/383977588/1355508518", 
+:profile_link_color=>"0084B4", 
+:profile_sidebar_border_color=>"BDDCAD", 
+:profile_sidebar_fill_color=>"DDFFCC", 
+:profile_text_color=>"333333", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.44262366, 30.51930557]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.51930557, 50.44262366]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>0, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/3Cqvsdb1VJ", 
+:expanded_url=>"https
+://instagram.com/p/2jjOBKjgFG/", 
+:display_url=>"instagram.com/p/2jjOBKjgFG/", 
+:indices=>[96, 119]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"ru"}, {
+:metadata=>{
+:result_type=>"recent", 
+:iso_language_code=>"uk"}, 
+:created_at=>"Mon May 11 18
+:08
+:14 +0000 2015", 
+:id=>597825554973401089, 
+:id_str=>"597825554973401089", 
+:text=>"Spring is my love 😍🌸🌺🌷 #vscocam\n#KIEV #UKRAINE #kiev_girl @ Ботанічний Сад Ім. О. Фоміна /… https
+://t.co/E0lQXEnixj", 
+:source=>"<a href=\"http
+://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+:truncated=>false, 
+:in_reply_to_status_id=>nil, 
+:in_reply_to_status_id_str=>nil, 
+:in_reply_to_user_id=>nil, 
+:in_reply_to_user_id_str=>nil, 
+:in_reply_to_screen_name=>nil, 
+:user=>{
+:id=>1377682615, 
+:id_str=>"1377682615", 
+:name=>"Анастасія", 
+:screen_name=>"nastiachajka", 
+:location=>"", 
+:description=>"дівчина з іншого життя #Укртві", 
+:url=>"http
+://t.co/gZh3KFtc4s", 
+:entities=>{
+:url=>{
+:urls=>[{
+:url=>"http
+://t.co/gZh3KFtc4s", 
+:expanded_url=>"http
+://m.vk.com/id79890399", 
+:display_url=>"m.vk.com/id79890399", 
+:indices=>[0, 22]}]}, 
+:description=>{
+:urls=>[]}}, 
+:protected=>false, 
+:followers_count=>114, 
+:friends_count=>80, 
+:listed_count=>0, 
+:created_at=>"Wed Apr 24 18
+:14
+:07 +0000 2013", 
+:favourites_count=>3858, 
+:utc_offset=>10800, 
+:time_zone=>"Baghdad", 
+:geo_enabled=>true, 
+:verified=>false, 
+:statuses_count=>4440, 
+:lang=>"uk", 
+:contributors_enabled=>false, 
+:is_translator=>false, 
+:is_translation_enabled=>false, 
+:profile_background_color=>"C0DEED", 
+:profile_background_image_url=>"http
+://pbs.twimg.com/profile_background_images/378800000141167621/wupMmAMX.jpeg", 
+:profile_background_image_url_https=>"https
+://pbs.twimg.com/profile_background_images/378800000141167621/wupMmAMX.jpeg", 
+:profile_background_tile=>false, 
+:profile_image_url=>"http
+://pbs.twimg.com/profile_images/583739258898411523/-c3ww1MD_normal.jpg", 
+:profile_image_url_https=>"https
+://pbs.twimg.com/profile_images/583739258898411523/-c3ww1MD_normal.jpg", 
+:profile_banner_url=>"https
+://pbs.twimg.com/profile_banners/1377682615/1428009258", 
+:profile_link_color=>"0084B4", 
+:profile_sidebar_border_color=>"FFFFFF", 
+:profile_sidebar_fill_color=>"EADEAA", 
+:profile_text_color=>"333333", 
+:profile_use_background_image=>true, 
+:default_profile=>false, 
+:default_profile_image=>false, 
+:following=>false, 
+:follow_request_sent=>false, 
+:notifications=>false}, 
+:geo=>{
+:type=>"Point", 
+:coordinates=>[50.44547809, 30.49445371]}, 
+:coordinates=>{
+:type=>"Point", 
+:coordinates=>[30.49445371, 50.44547809]}, 
+:place=>{
+:id=>"084d0d0155787e9d", 
+:url=>"https
+://api.twitter.com/1.1/geo/id/084d0d0155787e9d.json", 
+:place_type=>"country", 
+:name=>"Ukraine", 
+:full_name=>"Ukraine", 
+:country_code=>"UA", 
+:country=>"Ukraina", 
+:contained_within=>[], 
+:bounding_box=>{
+:type=>"Polygon", 
+:coordinates=>[[[22.1357201, 44.386383], [40.227172, 44.386383], [40.227172, 52.379475], [22.1357201, 52.379475]]]}, 
+:attributes=>{}}, 
+:contributors=>nil, 
+:retweet_count=>0, 
+:favorite_count=>0, 
+:entities=>{
+:hashtags=>[{
+:text=>"vscocam", 
+:indices=>[23, 31]}, {
+:text=>"KIEV", 
+:indices=>[32, 37]}, {
+:text=>"UKRAINE", 
+:indices=>[38, 46]}, {
+:text=>"kiev_girl", 
+:indices=>[47, 57]}], 
+:symbols=>[], 
+:user_mentions=>[], 
+:urls=>[{
+:url=>"https
+://t.co/E0lQXEnixj", 
+:expanded_url=>"https
+://instagram.com/p/2jNdEuAVed/", 
+:display_url=>"instagram.com/p/2jNdEuAVed/", 
+:indices=>[92, 115]}]}, 
+:favorited=>false, 
+:retweeted=>false, 
+:possibly_sensitive=>false, 
+:lang=>"uk"}], 
+:search_metadata=>{
+:completed_in=>0.039, 
+:max_id=>600337533717774336, 
+:max_id_str=>"600337533717774336", 
+:query=>"my+kiev", 
+:refresh_url=>"?since_id=600337533717774336&q=my%20kiev&geocode=50.45025%2C30.523889%2C20km&include_entities=1", 
+:count=>100, 
+:since_id=>0, 
+:since_id_str=>"0"}}

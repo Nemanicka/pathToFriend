@@ -28,9 +28,14 @@ class FoursquareSearcher
         geocode = {:lat => 50.45025, :long => 30.523889, :radius => "20km" }
         lang = {:lang => "en"}
         
-        obj = client.search( "my kiev", { :geocode => "50.45025,30.523889,20km"} )
+        obj = client.search( "", { :geocode => "50.45025,30.523889,40km"} )
 #        obj = client.geo_search( {:lat => 50.45025, :long => 30.523889} )
-        puts obj.to_h;
+        objh = obj.to_h;
+        counter = 0
+        objh[:statuses].each {|x| puts x[:text]; counter+=1   }
+     
+   puts counter
+#        puts objh[:statuses]
         
     end
 
