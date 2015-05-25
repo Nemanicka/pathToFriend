@@ -37,8 +37,11 @@ run( ['$rootScope', '$window',
 }]); 
 
 
-geosearch.controller("geosearchController", function($scope) {
+geosearch.controller("geosearchController", function($scope, $http) {
     $scope.name = "Hello World";
+    
+    userInfoJson = null;
+    
     $scope.checkLoginState = function () {  
                                 FB.getLoginStatus(function(response) 
                                 {               
@@ -61,7 +64,9 @@ geosearch.controller("geosearchController", function($scope) {
         console.log(response);      
             if (response.status === 'connected') {
             // Logged into your app and Facebook.     
-            testAPI();} else if (response.status === 'not_authorized') {               
+                userInfoJson = response;
+                //testAPI();
+            } else if (response.status === 'not_authorized') {               
             // The person is logged into Facebook, but not your app.         
             document.getElementById('status').innerHTML = 'Please log ' +  'into this app.';         
             } else {          
@@ -70,5 +75,33 @@ geosearch.controller("geosearchController", function($scope) {
             document.getElementById('status').innerHTML = 'Please log ' +  'into Facebook.';         
             } 
       }
+    
+    $scope.send = function() {
+       var idJSON = {
+                    id: "99999"  
+                }
+
+       var token = function(id) {         
+            var el = document.getElementsByName("csrf-token")[0].content;
+            return el;       
+            // do something with el     };
+       }()
+       
+//       alert(token);
+       if (userInfoJson == null)
+       {
+            console.log("not logged in");
+            $scope.checkLoginState();
+            return; 
+       }
+       $http.defaults.headers.post = { 'X-CSRF-Token': token,  'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
+       $http.defaults.headers.get = { 'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
+
+       
+
+       var res = $http.post('/id_json', userInfoJson);
+
+    }
+
             
 });

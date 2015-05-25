@@ -4,4 +4,11 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+
+  def recieveJSON
+    render nothing: true
+    puts "=================OO===================="
+    puts params
+    puts "=================OO===================="
+  end
 end
