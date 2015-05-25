@@ -6237,3 +6237,4473 @@ Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 08:
 
 
 Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 08:36:48 +0000
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:09:15 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 276ms (Views: 274.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:09:15 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:16 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:17 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:17 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:17 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:09:17 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 252ms (Views: 251.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:42 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:09:43 +0000
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:11:06 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 268ms (Views: 266.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:07 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:11:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.3ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:11:43 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 309ms (Views: 308.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:11:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:43 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:11:43 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:43 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:43 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:43 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:44 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:11:45 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.8ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:11:59 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 256ms (Views: 255.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:11:59 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:11:59 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:59 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:59 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:11:59 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:12:00 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.4ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:15:40 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 266ms (Views: 266.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:41 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:15:42 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.8ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:16:20 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 234ms (Views: 233.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:16:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:16:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.9ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:24:13 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 247ms (Views: 246.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:14 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:24:15 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.0ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 231ms (Views: 230.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:45 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:27:47 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:27:50 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:27:50 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:27:51 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:31:43 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 246ms (Views: 245.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:31:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:43 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:31:43 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:43 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:43 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:43 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:31:44 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.4ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:32:08 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 254ms (Views: 253.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:09 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:32:10 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.8ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:33:13 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 156ms (Views: 155.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:33:14 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:33:14 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:14 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:14 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:14 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:33:15 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.7ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 09:38:35 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 236ms (Views: 235.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:36 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 09:38:37 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 163ms (Views: 162.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:20 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:27:21 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.4ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:45:50 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 251ms (Views: 250.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:51 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.7ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:45:52 +0000
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:46:17 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 253ms (Views: 252.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:46:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:46:18 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:18 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:18 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:18 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:18 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.2ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:46:19 +0000
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 240ms (Views: 239.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:16 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.8ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:48:17 +0000
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:50:20 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 160ms (Views: 159.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:21 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:50:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.1ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:50:44 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 177ms (Views: 176.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:45 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:50:46 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.5ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:53:31 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 168ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:53:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:53:31 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:31 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:31 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:31 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.1ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:53:32 +0000
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:57:05 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 261ms (Views: 260.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:06 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:57:07 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.6ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:57:39 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 188ms (Views: 187.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:57:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:39 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:40 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:57:41 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:57:43 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.2ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:59:27 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 252ms (Views: 251.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:28 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:59:29 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.9ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 10:59:52 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 228ms (Views: 227.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:53 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 10:59:54 +0000
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 153ms (Views: 152.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:03 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:04 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:04 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:04 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:00:04 +0000
+
+
+Started GET "/static_pages/home" for 31.13.110.123 at 2015-05-25 11:00:04 +0000
+Processing by StaticPagesController#home as */*
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 203ms (Views: 202.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 11:02:36 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 264ms (Views: 263.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:37 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 11:02:38 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 11:03:05 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 252ms (Views: 251.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:06 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 11:03:07 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.5ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 11:05:00 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 173ms (Views: 172.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:01 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:02 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:02 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:02 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 11:05:02 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 11:05:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 11:06:25 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 165ms (Views: 164.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 11:06:25 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 11:06:25 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:25 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:25 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:25 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 11:06:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 11:06:27 +0000
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 11:07:22 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 250ms (Views: 249.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/angular-route.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/angular-resource.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/underscore.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:23 +0000
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 11:07:24 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
+
+
+Started GET "/static_pages/home" for 94.153.230.50 at 2015-05-25 11:07:49 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 170ms (Views: 169.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 94.153.230.50 at 2015-05-25 11:07:49 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 94.153.230.50 at 2015-05-25 11:07:49 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:49 +0000
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:49 +0000
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:49 +0000
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+
+Started GET "/assets/underscore-min.map" for 94.153.230.50 at 2015-05-25 11:07:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.3) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.3) lib/rack/lock.rb:17:in `call'
+  rack (1.5.3) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.3) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.6ms)
