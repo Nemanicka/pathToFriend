@@ -103,5 +103,23 @@ geosearch.controller("geosearchController", function($scope, $http) {
 
     }
 
+/*
+    $scope.vkLogin = function() {
+        var oauth = new XMLHttpRequest();
+       // var tmp = window.open();
+        var tmp = window.open('https://oauth.vk.com/authorize?client_id=2&redirect_uri=https://oauth.vk.com/blank.html&scope=12&display=page&response_type=token', 'login', 'height=200', 'width=200');
+        var url = tmp.location.href;
+        var params = url.split('#');
+        alert(url);
+    //    alert(params[1]);
+
+        // window.open();
+       // oauth.open('GET', 'https://oauth.vk.com/authorize?client_id=1&redirect_uri=https://oauth.vk.com/blank.html&scope=12&display=page&response_type=token', false);
+       // oauth.setRequestHeader('Access-Control-Allow-Origin', '*');
+//        oauth.send();
+  //      alert(oauth.responseText);
+   //     alert(oauth.getAllResponseHeaders);
+    }
+*/
             
 });

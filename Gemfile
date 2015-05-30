@@ -52,6 +52,11 @@ gem 'addressable'
 gem 'twitter'
 
 gem 'koala', '2.0.0'
+
+gem 'bitset'
+
+gem 'vkontakte_api'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
