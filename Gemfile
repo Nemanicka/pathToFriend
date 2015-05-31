@@ -57,6 +57,16 @@ gem 'bitset'
 
 gem 'vkontakte_api'
 
+gem 'sidekiq'
+
+gem 'concurrent-ruby', '0.8.0'
+
+gem 'concurrent-ruby-ext', '0.8.0'
+
+gem 'eventmachine' 
+
+gem 'em-http-request'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
