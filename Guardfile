@@ -22,3 +22,7 @@
 #  $ ln -s config/Guardfile .
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
+
+guard :rspec, cmd: 'spring rspec -f doc' do
+
+end

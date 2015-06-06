@@ -15,40 +15,7 @@ require "concurrent"
 require "fiber"
 require 'eventmachine' 
 require 'em-http-request'
-
-
-
-class DSQueue
-    @q
-
-    def initialize( attributes = {} )
-        @q = Array.new
-    end
-
-    def push(arg)
-        @q.push(arg)
-    end
-
-    def pop
-        res = @q.first
-        @q.delete_at(0)
-        return res
-    end
-
-    def front
-        return @q.first
-    end
-
-    def to_s
-        return @q.to_s
-    end
-
-    def size
-        return @q.size
-    end
-
-end
-
+require_relative "../helper/fetcher"
 
 
 class FoursquareSearcher
@@ -70,12 +37,12 @@ class FoursquareSearcher
   
 
 
-        @result = Array.new
-        @lUserHash = Bitset.new 1000000000 
-        @rUserHash = Bitset.new 1000000000 
-        @fetched = Bitset.new 10000000 
-        @finish1 = false        
-        @finish2 = false        
+#        @result = Array.new
+#        @lUserHash = Bitset.new 1000000000 
+#        @rUserHash = Bitset.new 1000000000 
+#        @fetched = Bitset.new 10000000 
+#        @finish1 = false        
+#        @finish2 = false        
 
 
         @q1 = DSQueue.new
@@ -83,11 +50,33 @@ class FoursquareSearcher
         
         @q2 = DSQueue.new
         @q2.push( [ 77777] )
+
+
        
         #@leftStack = Array.new
         #@rightStack = Array.new
         
+#        threads = []
+        
+#        threads << Thread.new {
+            fet1 = Fetcher.new
+            @q1 = fet1.fetchFriends(@q1)
+            puts @q1
 
+#        }.run
+        
+
+#        threads << Thread.new { 
+            fet2 = Fetcher.new
+
+            @q2 = fet2.fetchFriends(@q2)
+
+            puts @q2
+#        }.run
+        
+#        threads.each { |x| x.join }        
+        
+=begin
 
         f1 = Fiber.new do |f|
         
@@ -115,7 +104,7 @@ class FoursquareSearcher
         end
         
         f1.resume f2
-        
+=end        
 #            fetchFriends( @q1, @lUserHash )
 #        @finish = false        
 #            fetchFriends( @q2, @rUserHash )
@@ -141,52 +130,6 @@ class FoursquareSearcher
         puts "works"
     end
 
-    def fetchFriends( queue, mybitset, opbitset, finish, stack )
-        total = 0
-        succeed = 0
-        failed = 0
-        EM.run do   
-            counter = 0
-            while( finish == false ) do
-                counter+=1
-                userStack = queue.pop()
-                    puts "first elem = #{userStack}, size = #{queue.size}" 
-                id = userStack[0]
-                
-                next if @fetched[id] == 1     
-                
-                
- 
-                http = ( EM::HttpRequest.new('https://api.vk.com/method/friends.get', :connect_timeout => 10, :inactivity_timeout => 10 ).post :body => {:user_id => id } )
-                finish = true if( found == true and userStack.size != queue.front().size ) 
-                http.errback { 
-                    failed+=1
-                    total +=1
-                    p "Oops"; 
-                    EM.stop if counter == 1
-                    counter-=1;
-                } 
-                http.callback {
-                    succeed+=1
-                    total+=1
-                    a = JSON.parse(http.response)["response"]
-                    userStack.unshift( id )
-                    queue.push( userStack )
-                    @fetched[id] = 1
-                    mybitset[id] = 1
-                    if ( opbitset[id] == 1 ) do
-                        found = true
-                    end
-                    a.each { |x| bitset[x] = 1  }
-                    EM.stop if counter == 1
-                    counter-=1;
-                }
-           end
-        end
-        puts "succeed = #{succeed}/#{total}"  
-        puts "failed = #{failed}/#{total}"  
-        puts "Done."
-    end
     
     def fetchFriendsErrCallback
         

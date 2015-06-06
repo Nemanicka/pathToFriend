@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
+#gem 'spring',        group: :development
 
 gem 'gmaps4rails'
 gem 'capybara', '2.1.0'
@@ -35,11 +35,12 @@ group :production do
     gem 'rails_12factor', '0.0.2' 
 end
 
-gem 'rspec-rails', '2.13.1'
+#gem 'rspec-rails', '2.13.1'
+gem 'rspec-rails', '3'
 
 gem 'minitest'
 
-gem 'guard-rspec', '2.5.0'
+gem 'guard-rspec', '4.5.1'
 
 gem 'therubyracer'
 
@@ -66,6 +67,9 @@ gem 'concurrent-ruby-ext', '0.8.0'
 gem 'eventmachine' 
 
 gem 'em-http-request'
+
+gem 'guard'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
