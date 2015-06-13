@@ -1,6 +1,14 @@
+require 'forwardable'
+
 
 class DSQueue
+    include Enumerable
+    extend Forwardable
+
+
     @q
+    def_delegators :@q, :each
+
 
     def initialize( attributes = {} )
         @q = Array.new
@@ -20,12 +28,24 @@ class DSQueue
         return @q.first
     end
 
-    def to_s
-        return @q.to_s
+    def get_a
+        return @q
     end
 
     def size
         return @q.size
+    end
+
+    def sort_by_first
+        @q.sort_by {|x| x.first }
+    end
+
+    def [](key)
+        return @q[key]
+    end
+
+    def clear
+        @q.clear
     end
 
 end

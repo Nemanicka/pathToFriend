@@ -1,61 +1,72 @@
 require_relative "DSQueue"
 require "bitset"
+require "typhoeus"
+
 
 class Fetcher
     @qNewFetched
     @@fetched
+    @threadPool
+
+
     def initialize( attribs = {} )
-        @qNewFetched = DSQueue.new 
         @@fetched = Bitset.new( 1000000000 )
+        @threadPool = Array.new
     end    
 
-    
+      
+
     def fetchFriends( queue )
-        total = 0
+        puts "total size to fetch = #{queue.size}"
+        
+        @qNewFetched = DSQueue.new 
+        @threadPool.clear
         succeed = 0
         failed = 0
-        EM.run do   
-            counter = 0
-            while( queue.size != 0 ) do
+        counter = 0
+        queue.each do |x|
+        @threadPool << Thread.new {
                 counter+=1
-                userStack = queue.pop()
-                    puts "userStack = #{userStack}, size = #{queue.size}" 
+                userStack = x
+#                    puts "userStack = #{userStack}, left = #{ queue.size - counter  }" 
+#
+#               
+                puts "left = #{ queue.size - counter}" if counter%100 == 0
                 id = userStack[0]
-                
-                next if @@fetched[id] == 1     
-                     
-                
- 
-                http = ( EM::HttpRequest.new('https://api.vk.com/method/friends.get', :connect_timeout => 10, :inactivity_timeout => 10 ).post :body => {:user_id => id } )
-#                finish = true if( found == true and userStack.size != queue.front().size ) 
-                http.errback { 
-                    failed+=1
-                    total +=1
-                    p "Oops"; 
-                    EM.stop if counter == 1
-                    counter-=1;
-                } 
-                http.callback {
-                    p "seccess"
-                    succeed+=1
-                    total+=1
-                    a = JSON.parse(http.response)["response"]
-                    userStack.unshift( nil )
-#                    @qNewFetched.push( userStack )
+                puts " fetching for #{id} "
+                if @@fetched[id] != 1
                     @@fetched[id] = 1
-          #          if ( opbitset[id] == 1 ) do
-           #             found = true
-            #        end
-                    a.each { |x| userStack[0]=x;  @qNewFetched.push(userStack)  }
-                    EM.stop if counter == 1
-                    counter-=1;
-                }
-           end
+          #         next if @@fetched[id] == 1     
+                    response = Typhoeus::Request.new(
+                    "https://api.vk.com/method/friends.get",
+                    params: {user_id: id}).run
+ 
+                    response = JSON.parse(response.body)
+
+                    callBack( response["response"], userStack ) unless response["response"].nil?
+                    errorBack( response["error"]  ) unless response["error"].nil?
+                end
+       }.run
         end
-        puts "succeed = #{succeed}/#{total}"  
-        puts "failed = #{failed}/#{total}"  
+        @threadPool.each &:join
+        
         puts "Done."
+        
+        @qNewFetched.sort_by_first
+        puts "--total fetched #{@qNewFetched.size} "
         return @qNewFetched
     end
 
+    def errorBack( response )
+        puts "oops: #{response}"
+    end
+   
+    def callBack( response, userStack )
+        userStack.unshift(nil)
+        response.each do |x| 
+            tmp = Array.new( userStack )
+            tmp[0]=x;  
+            @qNewFetched.push(tmp)
+        end 
+    end
 end
