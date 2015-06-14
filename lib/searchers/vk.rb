@@ -45,13 +45,14 @@ class FoursquareSearcher
 #        @finish2 = false     
 #
     #    user1 = getUidFromScreenName("1")
-        user1 = getUidFromScreenName("alexi_tretiak")
+        #user1 = getUidFromScreenName("id13249892")
+        user1 = getUidFromScreenName("id78040149")
         puts user1
         #user2 = getUidFromScreenName("xenachujah")
       #  user2 = getUidFromScreenName("id7974949")
     #    user2 = getUidFromScreenName("77777")
      #   user2 = getUidFromScreenName("vozcantante")
-        user2 = getUidFromScreenName("id79283900")
+        user2 = getUidFromScreenName("id306490973")
 #        puts user2
 
       
@@ -63,7 +64,11 @@ class FoursquareSearcher
         
         @q2 = DSQueue.new
         @q2.push( [ user2] )
-    
+        u =  getUidFromScreenName("vozcantante")
+        puts u
+
+
+
  #       @q3 = DSQueue.new
 
        
@@ -84,34 +89,48 @@ class FoursquareSearcher
 #        fet2 = Fetcher.new
 #        fet3 = Fetcher.new
 #        while true do
-
+    times = 0
+    t1 = Time.now
     while( true ) do
+        times+=1
 
+        puts "@q1 #{times}"
          @q1 = fet1.fetchFriends(@q1)
+#        puts "q1 = #{@q1.get_a.to_s}"
  #       puts @q1.get_a.to_s
          searchCommon( @q1, @q2 )
-            
+#            puts "test1"
             if( @result.size != 0 )
-                puts "res f = #{@result.size}"
+ #               puts "res f = #{@result.size}"
                 extendResult
                 puts @result
-                return
+                break
             end
-            
+         puts "test X"    
+        
+        
+        puts "@q2 #{times}"
+    
          @q2 = fet2.fetchFriends(@q2)
+         puts "test Y"   
+#        puts "q2 = #{@q2.get_a.to_s}"
     #    puts "++++++++++++++++++++++++++"
     #    puts @q2.get_a.to_s
     #    puts "=========================="
     #    puts @q1.get_a.to_s
          searchCommon( @q1, @q2 )
-            
+            puts "test2"
             if( @result.size != 0 )
-                puts "res s = #{@result.size}"
+#                puts "res s = #{@result.size}"
                 extendResult
                 puts @result
-                return
+                break
             end
     end
+
+    t2 = Time.now
+    t = t2 - t1
+    puts "time = #{t}"
 #            @q2.get_a.map! { |x| x[0]  }
 #            puts @q2.get_a.to_s
 

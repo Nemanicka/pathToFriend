@@ -7,7 +7,7 @@ class DSQueue
 
 
     @q
-    def_delegators :@q, :each
+    def_delegators :@q, :each, :push, :sort_by!
 
 
     def initialize( attributes = {} )
@@ -36,9 +36,9 @@ class DSQueue
         return @q.size
     end
 
-    def sort_by_first
-        @q.sort_by {|x| x.first }
-    end
+  #  def sort_by_first
+  #      @q.sort_by {|x| x.first }
+  #  end
 
     def [](key)
         return @q[key]
