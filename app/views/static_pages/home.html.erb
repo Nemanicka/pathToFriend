@@ -14,14 +14,19 @@
     VK.UI.button('login_button');
 </script>
 
-<fb:login-button show-faces="true" max-rows="1" size="large">
+<!--fb:login-button show-faces="true" max-rows="1" size="large">
 </fb:login-button>
 
-<input type="button" ng-click="logout()" value="logout">
+<input type="button" ng-click="logout()" value="logout"-->
 <input type="button" ng-click="send()" value="send">
+<input type="textarea" ng-model="firstId" ng-change="check()">
+<input type="textarea" ng-model="secondId" ng-change="check()">
 
 
-<div id="status"> 
+
+<div id="status">
+Hello {{lal}}
+
 </div>
 
 <div id="fb-root"></div>

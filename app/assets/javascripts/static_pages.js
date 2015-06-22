@@ -37,8 +37,20 @@ run( ['$rootScope', '$window',
 }]); 
 
 
-geosearch.controller("geosearchController", function($scope, $http) {
-    $scope.name = "Hello World";
+geosearch.controller("geosearchController", function($scope, $http, $timeout) {
+    $scope.lal = 1;   
+    $scope.firstId = ""    
+    $scope.secondId = ""    
+
+
+    $scope.change = function() {
+        
+    }
+
+    $scope.check = function() {
+        $scope.lal++;
+    }
+    
     
     userInfoJson = null;
     
@@ -48,7 +60,7 @@ geosearch.controller("geosearchController", function($scope, $http) {
                                     statusChangeCallback(response);      
                                 }); 
                              }
-
+    
     $scope.logout =  function() {    
                         var _self = this;    
                             FB.logout(function(response) {      
@@ -57,8 +69,8 @@ geosearch.controller("geosearchController", function($scope, $http) {
                                  });     
                             }); 
                         }
-
-
+    
+    
     function statusChangeCallback(response) {          
         console.log('statusChangeCallback'); 
         console.log(response);      
@@ -77,10 +89,17 @@ geosearch.controller("geosearchController", function($scope, $http) {
       }
     
     $scope.send = function() {
-       var idJSON = {
-                    id: "99999"  
-                }
-
+   /*    var idJSON = JSON.parse (
+                    '{' +
+                    '"firstId": "scopefirstId",' +
+                    '"secondID": "scopesecondId"' + 
+                    '}'
+                    )*/
+       var idJSON = { 
+                    "firstId": $scope.firstId,
+                    "secondID": $scope.secondId
+                    };
+                    
        var token = function(id) {         
             var el = document.getElementsByName("csrf-token")[0].content;
             return el;       
@@ -88,18 +107,18 @@ geosearch.controller("geosearchController", function($scope, $http) {
        }()
        
 //       alert(token);
-       if (userInfoJson == null)
-       {
-            console.log("not logged in");
-            $scope.checkLoginState();
-            return; 
-       }
+//       if (userInfoJson == null)
+//     {
+//            console.log("not logged in");
+//            $scope.checkLoginState();
+//            return; 
+//       }
        $http.defaults.headers.post = { 'X-CSRF-Token': token,  'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
        $http.defaults.headers.get = { 'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
 
        
 
-       var res = $http.post('/id_json', userInfoJson);
+       var res = $http.post('/id_json', idJSON);
 
     }
 

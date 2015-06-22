@@ -1,8 +1,9 @@
 require "json"
 require "koala"
-
+require "gon"
 
 class StaticPagesController < ApplicationController
+    include ActionController::Live
   def home
   end
 
@@ -11,10 +12,26 @@ class StaticPagesController < ApplicationController
 
   def recieveJSON
     render nothing: true
-    puts "=================OO===================="
-    puts params.class
+    puts "=================()===================="
+#    puts params.class
+#    puts params
+#response.stream.open
+puts response.class
+    response.headers['Content-Type'] = 'text/event-stream'
+puts "test1"
+   10.times {
+        puts "lal"
+      response.stream.write "hello world\n"
+      sleep 1
+    }
+
+    puts "lol"
+#    ensure
+    response.stream.close 
+
     #parseData = JSON.parse(params)
-    if params["status"] == "connected"
+=begin
+ *  if params["status"] == "connected"
     
     userId = params["authResponse"]["userID"]
     accToken = params["authResponse"]["accessToken"]
@@ -24,7 +41,7 @@ class StaticPagesController < ApplicationController
     res = graph.get_connections(userId, "public_profile/user_friends")
     puts res.raw_response
     end
-
+=end
     puts "=================OO===================="
   end
 

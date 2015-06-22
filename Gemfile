@@ -70,6 +70,11 @@ gem 'em-http-request'
 
 gem 'guard'
 
+gem 'typhoeus'
+
+gem 'gon'
+
+gem 'puma'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -75,7 +75,7 @@ class FoursquareSearcher
         #@leftStack = Array.new
         #@rightStack = Array.new
         
-#        threads = []
+        @threads = Array.new
         
 #        threads << Thread.new {
 #
@@ -103,7 +103,7 @@ class FoursquareSearcher
             if( @result.size != 0 )
  #               puts "res f = #{@result.size}"
                 extendResult
-                puts @result
+#                puts @result
                 break
             end
          puts "test X"    
@@ -123,7 +123,7 @@ class FoursquareSearcher
             if( @result.size != 0 )
 #                puts "res s = #{@result.size}"
                 extendResult
-                puts @result
+#                puts @result
                 break
             end
     end
@@ -143,24 +143,51 @@ class FoursquareSearcher
         
             if( @result.size != 0 )
                 extendResult
-                puts @result
                 return
             end
 #            sleep(1)
 =end            
-#        end
     end
-    
+=begin    
     def extendResult
-        puts "extending..."
+
+        @result.map! { |x| x.map! { |id| getUserByUid(id) } }
+    end
+=end
+    def extendResult
+        t1 = Time.now 
+        @result.each_with_index do |el, ind|
+        @threads << Thread.new {
+            subthreads = []
+            el.each_with_index do |subEl, subInd|
+            subthreads << Thread.new {
+                @vk = VkontakteApi::Client.new
+                uri = URI( "https://api.vk.com/method/users.get")
+                res = Net::HTTP.post_form( uri, 'user_ids' => subEl, 'version' => '5.33')
+                res =  JSON.parse(res.body)
+               @result[ind][subInd] = res["response"][0]
+               #puts  res["response"][0]
+            }
+            end
+            subthreads.each &:join
+            puts "res = #{el}"
+        }.run
+        end
+        @threads.each &:join
+        t2 = Time.now
+        t = t2 - t1
+        puts " ext time =   #{t}"
 #        puts @result[0].size
 #        puts @result[1].size
 
-        @result.map! { |x| x.map! { |id| getUserByUid(id) } }
-        puts "extended"
+#        @result.map! { |x| x.map! { |id| getUserByUid(id) } }
+#        puts "extended"
     end
 
+
+
     def getUserByUid(uid)
+         
         @vk = VkontakteApi::Client.new
         uri = URI( "https://api.vk.com/method/users.get")
         res = Net::HTTP.post_form( uri, 'user_ids' => uid, 'version' => '5.33')
