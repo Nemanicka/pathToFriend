@@ -1,62 +1,58 @@
 require "json"
 require "koala"
 require "gon"
+require "vk"
 
 class StaticPagesController < ApplicationController
     include ActionController::Live
+    Mime::Type.register "text/event-stream", :stream
+
+  $streamStarted = false
+  $stream = nil
+
+
   def home
   end
 
   def help
   end
 
-  def recieveJSON
-    render nothing: true
+  def startStream
     puts "=================()===================="
-#    puts params.class
-#    puts params
-#response.stream.open
 puts response.class
     response.headers['Content-Type'] = 'text/event-stream'
 puts "test1"
-   10.times {
-        puts "lal"
-      response.stream.write "hello world\n"
-      sleep 1
-    }
 
-    puts "lol"
-#    ensure
-    response.stream.close 
-
-    #parseData = JSON.parse(params)
-=begin
- *  if params["status"] == "connected"
+#    a = {:Hello => "hello"}
+#    a = a.to_json
     
-    userId = params["authResponse"]["userID"]
-    accToken = params["authResponse"]["accessToken"]
-    #puts accToken
+    $stream = response.stream
+    
+    $streamStarted = true
 
-    graph = Koala::Facebook::API.new(accToken)
-    res = graph.get_connections(userId, "public_profile/user_friends")
-    puts res.raw_response
-    end
-=end
+    10.times {
+      sleep(1)
+    }
+    ensure
+    $stream.close
+    $streamStarted = false
     puts "=================OO===================="
+    render nothing: true
   end
 
-  def vkJSON
+  def recieveJSON
     render nothing: true
-    if params["status"] == "connected"
-    
-    #userId = params["authResponse"]["userID"]
-    #accToken = params["authResponse"]["accessToken"]
-    #puts accToken
+    puts params.class
+    puts params  
 
-    #graph = Koala::Facebook::API.new(accToken)
-    #res = graph.get_connections(userId, "public_profile/user_friends")
-    #puts res.raw_response
+    firstId = params["firstId"]
+    secondId = params["secondId"]
+
+    while( !$streamStarted ) do
+        puts "waiting for the stream"
+        sleep(0.3)
     end
+    vksearcher = Vksearcher.new( firstId, secondId, $stream )
 
   end
 

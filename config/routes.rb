@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
+  root 'static_pages#home'
 
   match 'id_json', to: 'static_pages#recieveJSON', via: [:get, :post], defaults: {format: :json}
 
-  #get 'static_pages/help'
+  get 'static_pages', to: 'static_pages#home'
+  get 'startStream', to: 'static_pages#startStream'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

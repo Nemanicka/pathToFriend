@@ -1,4 +1,3 @@
- #https://api.foursquare.com/v2/venues/search?ll=40.7,-74&client_id=LPOO1Y3SF1IRX04VJZC53XKKQQHCAMIQSB1SQ1BWYDFY1BSV&client_secret=3WL0SL5JODGZDJD1PNVRJPQ4JQAVN2SW42AUBQJIMMXZ3VE2&v=20120609
 
 require "net/http"
 require "curb"
@@ -14,11 +13,12 @@ require "time"
 require "concurrent"
 require "fiber"
 require 'eventmachine' 
-require 'em-http-request'
-require_relative "../helper/fetcher"
+require "em-http-request"
+require "fetcher"
+require "DSQueue"
 
 
-class FoursquareSearcher
+class Vksearcher
     @maxThreadNum
 
     @usersHash
@@ -32,31 +32,17 @@ class FoursquareSearcher
     @q1
     @q2
     @found
+    @stream = nil
 
-    def initialize( attributes = {} )
-  
-
+    def initialize( firstId, secondId, stream, attributes = {} )
+    puts "+++++++++++++++++Initialized++++++++++++++++++"
+    puts "firstId = #{firstId}"
+    puts "secondId = #{secondId}"
+        @stream = stream
 
         @result = Array.new
-#        @lUserHash = Bitset.new 1000000000 
-#        @rUserHash = Bitset.new 1000000000 
-#        @fetched = Bitset.new 10000000 
-#        @finish1 = false        
-#        @finish2 = false     
-#
-    #    user1 = getUidFromScreenName("1")
-        #user1 = getUidFromScreenName("id13249892")
-        user1 = getUidFromScreenName("id78040149")
-        puts user1
-        #user2 = getUidFromScreenName("xenachujah")
-      #  user2 = getUidFromScreenName("id7974949")
-    #    user2 = getUidFromScreenName("77777")
-     #   user2 = getUidFromScreenName("vozcantante")
-        user2 = getUidFromScreenName("id306490973")
-#        puts user2
-
-      
-        
+        user1 = getUidFromScreenName(firstId)
+        user2 = getUidFromScreenName(secondId)
         @@resTotal = 0
 
         @q1 = DSQueue.new
@@ -66,35 +52,19 @@ class FoursquareSearcher
         @q2.push( [ user2] )
         u =  getUidFromScreenName("vozcantante")
         puts u
-
-
-
- #       @q3 = DSQueue.new
-
-       
-        #@leftStack = Array.new
-        #@rightStack = Array.new
         
         @threads = Array.new
-        
-#        threads << Thread.new {
-#
 
         fet1 = Fetcher.new
         fet2 = Fetcher.new
         
-#        @q1 = fet1.fetchFriends(@q1)
-#        puts @q1.get_a.to_s
-    
-#        fet2 = Fetcher.new
-#        fet3 = Fetcher.new
-#        while true do
     times = 0
     t1 = Time.now
     while( true ) do
         times+=1
 
-        puts "@q1 #{times}"
+        
+#        puts "@q1 #{times}"
          @q1 = fet1.fetchFriends(@q1)
 #        puts "q1 = #{@q1.get_a.to_s}"
  #       puts @q1.get_a.to_s
@@ -106,54 +76,35 @@ class FoursquareSearcher
 #                puts @result
                 break
             end
-         puts "test X"    
+         puts "common not found"    
         
-        
-        puts "@q2 #{times}"
+        writeStream( {:addChain => true} )
+#        puts "@q2 #{times}"
     
          @q2 = fet2.fetchFriends(@q2)
-         puts "test Y"   
-#        puts "q2 = #{@q2.get_a.to_s}"
-    #    puts "++++++++++++++++++++++++++"
-    #    puts @q2.get_a.to_s
-    #    puts "=========================="
-    #    puts @q1.get_a.to_s
          searchCommon( @q1, @q2 )
-            puts "test2"
             if( @result.size != 0 )
 #                puts "res s = #{@result.size}"
                 extendResult
 #                puts @result
                 break
             end
+         puts "common not found"    
+        writeStream( {:addChain => true} )
     end
 
     t2 = Time.now
     t = t2 - t1
     puts "time = #{t}"
-#            @q2.get_a.map! { |x| x[0]  }
-#            puts @q2.get_a.to_s
-
-#            @q3 = fet3.fetchFriends(@q2)
-            
-            
-
-=begin            @q2 = fet2.fetchFriends(@q2)
-            searchCommon( @q1, @q2 )
-        
-            if( @result.size != 0 )
-                extendResult
-                return
-            end
-#            sleep(1)
-=end            
     end
-=begin    
-    def extendResult
 
-        @result.map! { |x| x.map! { |id| getUserByUid(id) } }
+    def writeStream( m = {} )
+        m = m.to_json
+        puts "******going to push*****"
+        @stream.write "data: #{m}\n\n" 
+        puts "******PUSHED*****"
     end
-=end
+
     def extendResult
         t1 = Time.now 
         @result.each_with_index do |el, ind|
@@ -177,11 +128,6 @@ class FoursquareSearcher
         t2 = Time.now
         t = t2 - t1
         puts " ext time =   #{t}"
-#        puts @result[0].size
-#        puts @result[1].size
-
-#        @result.map! { |x| x.map! { |id| getUserByUid(id) } }
-#        puts "extended"
     end
 
 
@@ -201,8 +147,6 @@ class FoursquareSearcher
         ptr2 = 0
 
         while( ptr1<q1.size and ptr2<q2.size ) do
-#            puts "ptr1 = #{ptr1}, q1 size = #{q1.size}"
-#            puts "ptr2 = #{ptr2}, q2 size = #{q2.size}"
             if q1[ptr1][0] > q2[ptr2][0]
                 ptr2+=1
             elsif q1[ptr1][0] < q2[ptr2][0]
@@ -253,18 +197,11 @@ class FoursquareSearcher
     end
 
     def fetchFriendsCallback
-   #     @succeed+=1
          puts "callback lol"
-   #     @total+=1
-   #     p self.response;
-   #     puts @counter
-   #     EM.stop if @counter == 1
-   #                @counter-=1;
-    
     end
 end
 
 
 
- test = FoursquareSearcher.new
+# test = FoursquareSearcher.new
 

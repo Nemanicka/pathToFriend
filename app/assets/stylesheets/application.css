@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+div.centered 
+{
+    text-align: center;
+}
+
+div.centered table 
+{
+    margin: 0 auto; 
+    text-align: left;
+}
+
+
+th, td 
+{
+    border: 1px solid black;
+    overflow: hidden;
+    width: 150px;
+    height: 100px;
+}
+
+button 
+{
+    display: inline-block;
+    width: 100%;
+}
