@@ -38,6 +38,7 @@ class Vksearcher
     puts "+++++++++++++++++Initialized++++++++++++++++++"
     puts "firstId = #{firstId}"
     puts "secondId = #{secondId}"
+    begin
         @stream = stream
 
         @result = Array.new
@@ -58,9 +59,9 @@ class Vksearcher
         fet1 = Fetcher.new
         fet2 = Fetcher.new
         
-    times = 0
-    t1 = Time.now
-    while( true ) do
+        times = 0
+        t1 = Time.now
+        while( true ) do
         times+=1
 
         
@@ -96,13 +97,25 @@ class Vksearcher
     t2 = Time.now
     t = t2 - t1
     puts "time = #{t}"
+
+
+    rescue => ex
+        writeErrorStream( ex.message )
+
+    end
     end
 
     def writeStream( m = {} )
         m = m.to_json
         puts "******going to push*****"
         @stream.write "data: #{m}\n\n" 
-        puts "******PUSHED*****"
+        puts "...pushed"
+    end
+
+    def writeErrorStream( m = {} )
+        errorMessage = { :error => m }.to_json
+        
+        @stream.write "data: #{errorMessage}\n\n" 
     end
 
     def extendResult
@@ -122,6 +135,7 @@ class Vksearcher
             end
             subthreads.each &:join
             puts "res = #{el}"
+            writeStream( { :chain => el } );
         }.run
         end
         @threads.each &:join
@@ -164,7 +178,11 @@ class Vksearcher
         @vk = VkontakteApi::Client.new
         uri = URI( "https://api.vk.com/method/users.get")
         res = Net::HTTP.post_form( uri, 'user_ids' => name, 'version' => '5.33')
+        raise "vk api error, response #{res}" if res.nil?
         res =  JSON.parse(res.body)
+        if res["response"].nil? or res["response"][0].nil? or res["response"][0]["uid"].nil?
+           raise "response parsing error, response  #{res}"
+        end
         return res["response"][0]["uid"]
     end
 

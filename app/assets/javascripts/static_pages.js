@@ -4,19 +4,22 @@ geosearch.controller("geosearchController", function($scope, $http, $timeout) {
       
     $scope.firstId = "";
     $scope.secondId = "";    
-    $scope.total = [1];
-    $scope.chain = []; 
+    $scope.chain = [ [] ]; 
     var userInfoJson = null;
 
     var horCount = 0;
     var verCount = 0;
+    var firstFilled = false;
 
     $scope.check = function() {
     }
     
     
     
-    $scope.send = function() {
+    $scope.send = function() 
+    {
+       $scope.chain = [ [] ];
+       firstFilled = false;
        if( $scope.firstId == "" )
        {
             console.log("firstId is empty");
@@ -36,18 +39,18 @@ geosearch.controller("geosearchController", function($scope, $http, $timeout) {
        var token = function(id) {         
             var el = document.getElementsByName("csrf-token")[0].content;
             return el;       
-            // do something with el     };
        }()
        
        $http.defaults.headers.post = { 'X-CSRF-Token': token,  'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
-       $http.defaults.headers.get = { 'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
+//       $http.defaults.headers.get = { 'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
 
-       
 
        var res = $http.post('/id_json', idJSON);
        $scope.startStream();
     }
 
+    $scope.validObject = false;
+    
     $scope.startStream = function() {
         console.log("startStream");
         var source = new EventSource('/startStream');
@@ -75,12 +78,38 @@ geosearch.controller("geosearchController", function($scope, $http, $timeout) {
             if( message.addChain == true )
             {
                 console.log("push to var");
-                $scope.chain.push(horCount);
+                $scope.chain[0].push(horCount);
                 console.log( $scope.chain.length );
                 $scope.$apply();
                 ++horCount;
             }
-            console.log(message.addChain);
+            if( message.chain != undefined )
+            {
+                if( message.chain.length - 2 != horCount )
+                {
+                    console.log( "error: wrong length of chaing" );
+                    console.log( horCount );
+                    console.log(  message.chain.length -2);
+                }
+                    message.chain.pop();
+                    message.chain.shift();
+                    if (!firstFilled)
+                    {
+                        $scope.chain[0] = angular.copy(message.chain);
+                        firstFilled = true;
+                    }
+                    else
+                    {
+                        console.log("push new!");
+                        $scope.chain.push( message.chain );
+                    }
+                    
+                    $scope.validObject = true;
+                    console.log($scope.chain.length);
+            }
+        
+            $scope.$apply();
+            console.log(event.data);
         }
 
     }
