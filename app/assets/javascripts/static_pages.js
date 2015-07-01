@@ -31,21 +31,20 @@ geosearch.controller("geosearchController", function($scope, $http, $timeout) {
             return;
        }
 
-       var idJSON = { 
-                    "firstId": $scope.firstId,
-                    "secondId": $scope.secondId
-                    };
+   //    var idJSON = { 
+   //                 "firstId": $scope.firstId,
+   //                 "secondId": $scope.secondId
+   //                 };
                     
-       var token = function(id) {         
-            var el = document.getElementsByName("csrf-token")[0].content;
-            return el;       
-       }()
+   //    var token = function(id) {         
+   //         var el = document.getElementsByName("csrf-token")[0].content;
+   //         return el;       
+   //    }()
        
-       $http.defaults.headers.post = { 'X-CSRF-Token': token,  'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
-//       $http.defaults.headers.get = { 'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
+//       $http.defaults.headers.post = { 'X-CSRF-Token': token,  'skip_before_action': 'verify_authenticity_token',  'Content-Type': 'application/json', 'Accept': 'application/json' }
 
 
-       var res = $http.post('/id_json', idJSON);
+//       var res = $http.post('/id_json', idJSON);
        $scope.startStream();
     }
 
@@ -53,7 +52,7 @@ geosearch.controller("geosearchController", function($scope, $http, $timeout) {
     
     $scope.startStream = function() {
         console.log("startStream");
-        var source = new EventSource('/startStream');
+        var source = new EventSource('/id_json?firstId='+$scope.firstId+'&secondId='+$scope.secondId);
         if(typeof(EventSource) !== "undefined") {
             console.log("created")
         } else {
