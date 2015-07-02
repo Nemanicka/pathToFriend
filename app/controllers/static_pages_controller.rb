@@ -23,6 +23,10 @@ class StaticPagesController < ApplicationController
 
     vksearcher = Vksearcher.new( firstId, secondId, response.stream )
 
+    msg = {:status => "finished"}.to_json
+    
+    response.stream.write "data: #{msg}\n\n"
+
     response.stream.close
 
     render nothing: true

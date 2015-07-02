@@ -14,9 +14,30 @@
  *= require_self
  */
 
+
+div.info
+{
+    min-height: 100px;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: #fafafa;
+    position: relative;
+}
+
+div.loading
+{
+    height: 100px;
+    width: 100%;
+}
+
 div.centered 
 {
+    z-index: 1;
+    position: relative;
     text-align: center;
+    position: relative;
 }
 
 div.centered table 
